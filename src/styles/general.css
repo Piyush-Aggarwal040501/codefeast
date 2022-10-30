@@ -1,0 +1,78 @@
+#parentBox{
+    width: 100%;
+    min-height: 100vh;
+    background: red;
+    display: flex;
+}
+#box1{
+    width: 30%;
+}
+#box2{
+    width: 70%;
+}
+#sidebar{
+    background: gray;
+    position: fixed;
+    height: 100vh;
+    padding: 43px 31px;
+    width: 24%;
+}
+#sidebar div{
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    background: yellow;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+}
+
+#searchBar{
+    width: 200px;
+    height: 37px;
+    padding: 0px 20px;
+}
+#logo{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: auto;
+}
+#footer{
+    background: yellow;
+    text-align: center;
+    padding: 16px;
+}
+
+#middle{
+    padding: 20px 30px;
+    min-height: 90vh;
+}
+#todo h2{
+    text-align: center;
+}
+#todo input{
+    width: 85%;
+    height: 50px;
+    padding: 0px 50px;
+}
+#todo h4{
+    text-align: center;
+}
+.add{
+    display: flex;
+}
+.btn{
+    width: 60px;
+    background: #06774f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    margin: 1px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
